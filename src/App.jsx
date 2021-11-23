@@ -1,7 +1,7 @@
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import { useState } from "react";
 import { getImages, getNextPage } from "./api/api";
-import "./App.module.css";
+import "./App.css";
 import { Searchbar } from "./components/Searchbar/Searchbar";
 import { ImageGallery } from "./components/ImageGallery/ImageGallery";
 import Loader from "react-loader-spinner";
